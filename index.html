@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Web Pantauan Perubahan Suhu Harian</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f9fc;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    hr {
+      border: none;
+      border-top: 2px solid #ccc;
+      margin: 20px 0;
+    }
+
+    h4.lokasi {
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #2c3e50;
+      margin-top: 30px;
+    }
+
+    h4.lokasi i {
+      color: #e74c3c;
+      font-size: 20px;
+    }
+
+    iframe {
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 25px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);#F01919
+    }
+
+    th {
+      background-color: #FF0035;
+      color: white;
+      padding: 12px;
+    }
+
+    td {
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    p.footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #555;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Kondisi Cuaca Daerah Balikpapan</h2>
+  <hr>
+
+  <h4 class="lokasi"><i class="fas fa-map-marker-alt"></i> Lokasi</h4>
+
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15931.949077259357!2d116.84405425!3d-1.265386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df147d3f8416f17%3A0x2d7f5cf7c6306e88!2sBalikpapan%2C%20Kota%20Balikpapan%2C%20Kalimantan%20Timur!5e0!3m2!1sid!2sid!4v1701420000000" 
+    width="100%" 
+    height="400" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+
+  <table>
+    <tr>
+      <th>No.</th>
+      <th>Hari</th>
+      <th>Tanggal</th>
+      <th>Suhu (°C)</th>
+      <th>Kelembapan (%)</th>
+    </tr>
+    <tr><td>1.</td><td>Senin</td><td>1/12/25</td><td>29°</td><td>83%</td></tr>
+    <tr><td>2.</td><td>Selasa</td><td>2/12/25</td><td>29°/24°</td><td>86%</td></tr>
+    <tr><td>3.</td><td>Rabu</td><td>3/12/25</td><td>29°/24°</td><td>86%</td></tr>
+    <tr><td>4.</td><td>Kamis</td><td>4/12/25</td><td>29°/24°</td><td>87%</td></tr>
+    <tr><td>5.</td><td>Jum'at</td><td>5/12/25</td><td>29°/25°</td><td>86%</td></tr>
+    <tr><td>6.</td><td>Sabtu</td><td>6/12/25</td><td>29°/25°</td><td>86%</td></tr>
+    <tr><td>7.</td><td>Minggu</td><td>7/12/25</td><td>29°/25°</td><td>84%</td></tr>
+  </table>
+
+  <p class="footer">dibuat &copy; oleh Fadilatus Sahra</p>
+</body>
+</html>
